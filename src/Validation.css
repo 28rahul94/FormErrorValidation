@@ -1,0 +1,41 @@
+.inputValues{
+  color:red;
+}
+
+
+
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: absolute;
+  left: 100px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: absolute;
+  left: 100px;
+  content: "✖";
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+#message {
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
